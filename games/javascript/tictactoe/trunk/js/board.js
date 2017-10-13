@@ -104,7 +104,7 @@ Board.prototype.hasWinner = function () {
 	
 	//check case
 	//*
-	//	*
+	//  *
 	//    *
     flag = this.grid[0][0].getValue();
 	for (i = 1; i < this.getSize(); i += 1) {
@@ -124,7 +124,7 @@ Board.prototype.hasWinner = function () {
     }
     //check case
 	//    *
-	//	*
+	//  *
 	//*
     flag = this.grid[0][this.getSize() - 1].getValue();
 	for (i = 1; i < this.getSize(); i += 1) {
