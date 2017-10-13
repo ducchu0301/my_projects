@@ -1,0 +1,141 @@
+#leftnav {
+	width: 150px;
+	font-size: 12px;
+	vertical-align: top;
+	font-size: 85%;
+}
+
+ul, ol {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#leftnav a {
+	/*/*/padding: 3px; 
+	display: block;
+	
+	text-decoration: none;
+	
+	width: 150px /* */
+}
+
+#leftnav a:link, #leftnav a:visited {
+	color: #FFFFFF;
+	background-image:url(../images/Button.png);
+	background-size:100%;
+}
+
+#leftnav a:hover {
+	color: #FFFFFF;
+	background-image:url(../images/ButtonHover.png);
+	background-size:100%;
+}
+#leftnav a:active {
+	color: #FFFFFF;
+	background-image:url(../images/ButtonClick.png);
+	background-size:100%;
+}
+#leftnav ul {
+	/*/*/padding: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	list-style-type: none; /* */
+}
+
+#leftnav li {
+	/*/*/margin: 0px 0px 6px 0px; /* */	
+}
+
+#current a {
+	color: #FFFFFF !important;
+	/*/*/background-image:url(../images/Button1.png) !important;
+	margin-left = 5px; !important;/* */
+}
+
+#minicart {
+	font-size: 15px;	
+}
+
+.entryTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.entryTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.entryTable .label {
+	background-color: #EFEFEF;
+}
+
+.entryTable .content {
+	background-color: #FFFFFF;
+}
+
+
+.infoTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.infoTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.infoTable .label {
+	background-color: #EFEFEF;
+}
+
+.infoTable .content {
+	background-color: #FFFFFF;
+}
+
+.box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #336699;
+}
+
+.notice {
+	color: #996600;
+	font-weight: bold;
+}
+
+.addToCartButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#333333;
+	font-weight:bold;
+	border: 1px solid #336699;
+	background-color:#FFCC00;
+}
+
+#errorMessage {
+	color: #990000;
+	font-weight: bold;
+}
+
+#rightNav1 {
+	background-image:url(../images/main.jpg);
+	background-size:contain;
+	color:#000;
+	margin:10px;
+}
+#rightNav2 {
+	margin:10px;
+	background-image:url(../images/main.jpg);
+	background-size:contain;
+	color:#000;
+}
