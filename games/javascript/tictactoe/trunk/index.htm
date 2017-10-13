@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tic Tac Toe Game</title>
+        <meta charset="utf-8">
+        <!--<link rel="stylesheet prefetch" href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css">-->
+    </head>
+    <body onload="loadGame()" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+        <div id="tic-tac-toe">
+            <div class="span3 new_span">
+                <div class="row">
+                    <h1 class="span3">Tic Tac Toe</h1>
+                    <div class="span3">
+                        <div class="input-preend input-append">
+                            <span id="player-1-name" class="add-on win_text">Player1 won</span>
+                            <strong id="player-1-win" class="win_times add-on">0</strong><span class="add-on">time(s)</span>
+                        </div>
+                        <div class="input-preend input-append">
+                            <span id="player-2-name" class="add-on win_text">Player2 won</span>
+                            <strong id="player-2-win" class="win_times add-on">0</strong><span class="add-on">time(s)</span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row" id="game">
+                    
+                </ul>
+                <div class="clr">&nbsp;</div>
+                <div class="row">
+                    <span id="reset" class="btn-success btn span3" onclick="resetGame()">Restart</span>
+                </div>
+            </div>
+        </div>
+        <script src="js/cookie.js" type="text/javascript"></script>
+        <script src="js/square.js" type="text/javascript"></script>
+        <script src="js/player.js" type="text/javascript"></script>
+        <script src="js/board.js" type="text/javascript"></script>
+        <script src="js/game.js" type="text/javascript"></script>
+    </body>
+</html>
