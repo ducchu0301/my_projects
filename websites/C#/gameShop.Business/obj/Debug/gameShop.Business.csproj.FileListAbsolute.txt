@@ -1,0 +1,10 @@
+C:\a\gameShop\gameShop.Business\bin\Debug\gameShop.Business.dll
+C:\a\gameShop\gameShop.Business\bin\Debug\gameShop.Business.pdb
+C:\a\gameShop\gameShop.Business\bin\Debug\gameShop.Data.dll
+C:\a\gameShop\gameShop.Business\bin\Debug\gameShop.Data.pdb
+C:\a\gameShop\gameShop.Business\obj\Debug\ResolveAssemblyReference.cache
+C:\a\gameShop\gameShop.Business\obj\Debug\gameShop.Business.dll
+C:\a\gameShop\gameShop.Business\obj\Debug\gameShop.Business.pdb
+C:\a\gameShop\gameShop.Business\bin\Debug\gameShop.Common.dll
+C:\a\gameShop\gameShop.Business\bin\Debug\FredCK.FCKeditorV2.dll
+C:\a\gameShop\gameShop.Business\bin\Debug\gameShop.Common.pdb

@@ -1,0 +1,5 @@
+C:\a\gameShop\gameShop.Data\bin\Debug\gameShop.Data.dll
+C:\a\gameShop\gameShop.Data\bin\Debug\gameShop.Data.pdb
+C:\a\gameShop\gameShop.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\a\gameShop\gameShop.Data\obj\Debug\gameShop.Data.dll
+C:\a\gameShop\gameShop.Data\obj\Debug\gameShop.Data.pdb

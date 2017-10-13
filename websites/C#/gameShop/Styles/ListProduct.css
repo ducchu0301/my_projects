@@ -1,0 +1,115 @@
+﻿.list-product
+{
+    width:100%;
+    
+    float:left;
+    background-color:White;
+}
+.header-listproduct
+{
+    background-color:Black;
+    width:570px;
+    padding-left:20px;
+    height:28px;
+    float:left;   
+    line-height:29px;
+    background:url('/Images/title.gif'); 
+    color:white;
+    border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    
+    
+    
+	background-color:#FFF;
+    text-shadow: 1px 1px 5px #fff inset;
+    -moz-box-shadow: 1px 1px 5px #000 inset;
+    -webkit-box-shadow: 1px 1px 5px #000 inset;
+    box-shadow: 1px 1px 5px #000 inset;
+}
+.content-listproduct
+{
+     width:100%;
+     float:left;
+     border-radius: 0px 0px 12px 12px;
+    -moz-border-radius: 0px 0px 12px 12px;
+    -webkit-border-radius: 0px 0px 12px 12px;
+    
+    margin-bottom: 10px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background-color:#FFF;
+    text-shadow: 1px 1px 5px #000 inset;
+    -moz-box-shadow: 1px 1px 5px #000 inset;
+    -webkit-box-shadow: 1px 1px 5px #000 inset;
+    box-shadow: 1px 1px 5px #000 inset;   
+}
+.product
+{
+    font:Arial;
+    margin:10px; 
+    width:175px;
+    height:184px;
+}
+
+.nameproduct
+{
+    width:100%;
+    text-align:center; 
+    float:left;
+    text-decoration:none;
+    color:black;
+}
+.priceproduct
+{
+    width:100%;
+    color:red;
+    text-align:center;
+    float:left;
+}
+.imgproduct
+{
+      width:183px;
+      float:left;
+      text-align:center; 
+}
+.img
+{
+    border: 2px solid white;
+    border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;   
+}
+.img:hover
+{
+    border-color: #0065C1;
+    border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+               
+}
+.img:active
+{
+    border-color:Red;
+    border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+}
+.orderproduct
+{
+    text-align:center; 
+}
+.orderproduct:hover
+{
+    border-color: #0065C1;
+    border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+}
+.btnproduct
+{
+    width:100%;
+    text-align:center;
+    float:left;   
+}

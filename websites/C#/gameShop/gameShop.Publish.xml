@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl=" ftp://www.gameshop.somee.com " deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="gameShop" publishMethod="FTP" replaceMatchingFiles="False" userName="zzhankunzz" savePWD="False" userPWD="" SelectedForPublish="True" />
+</publishData>

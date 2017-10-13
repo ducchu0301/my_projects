@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gameShop", "gameShop\gameShop.csproj", "{FBC36BCE-E8F9-4433-A658-2099C48E3EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gameShop.Data", "gameShop.Data\gameShop.Data.csproj", "{EB753362-9CD2-4E95-A53C-963521F0EDD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gameShop.Business", "gameShop.Business\gameShop.Business.csproj", "{6861EDCF-77AE-4B17-8212-56C9C74C7AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gameShop.Common", "gameShop.Common\gameShop.Common.csproj", "{B00C95A3-2DF0-410C-9F15-CDF5FE256E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBC36BCE-E8F9-4433-A658-2099C48E3EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC36BCE-E8F9-4433-A658-2099C48E3EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC36BCE-E8F9-4433-A658-2099C48E3EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC36BCE-E8F9-4433-A658-2099C48E3EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB753362-9CD2-4E95-A53C-963521F0EDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB753362-9CD2-4E95-A53C-963521F0EDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB753362-9CD2-4E95-A53C-963521F0EDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB753362-9CD2-4E95-A53C-963521F0EDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6861EDCF-77AE-4B17-8212-56C9C74C7AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6861EDCF-77AE-4B17-8212-56C9C74C7AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6861EDCF-77AE-4B17-8212-56C9C74C7AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6861EDCF-77AE-4B17-8212-56C9C74C7AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00C95A3-2DF0-410C-9F15-CDF5FE256E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00C95A3-2DF0-410C-9F15-CDF5FE256E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00C95A3-2DF0-410C-9F15-CDF5FE256E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00C95A3-2DF0-410C-9F15-CDF5FE256E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

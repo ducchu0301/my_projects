@@ -1,0 +1,49 @@
+﻿.header-module
+{width:205px; height:29px; float:left; background-image:url('/Images/title.gif'); font: bold 14px Arial; color:White;
+    border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    
+    
+    
+	background-color:#FFF;
+    text-shadow: 1px 1px 5px #000 inset;
+    -moz-box-shadow: 1px 1px 5px #000 inset;
+    -webkit-box-shadow: 1px 1px 5px #000 inset;
+    box-shadow: 1px 1px 5px #000 inset;
+}
+.left-module{width:5px; height:29; float:left;}
+.right-module{width:5px; height:29; float:left;}
+.center-module{width:185px; height:29; float:left; line-height:29px; padding-left:10px;}
+.content-module
+{width:203px; float:left; font:14px Arial;border:1px solid #51473E;
+    border-radius: 0px 0px 12px 12px;
+    -moz-border-radius: 0px 0px 12px 12px;
+    -webkit-border-radius: 0px 0px 12px 12px;
+    
+    margin-bottom: 10px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background-color:#FFF;
+    text-shadow: 1px 1px 5px #000 inset;
+    -moz-box-shadow: 1px 1px 5px #000 inset;
+    -webkit-box-shadow: 1px 1px 5px #000 inset;
+    box-shadow: 1px 1px 5px #000 inset;
+}
+
+/*--------Category--------*/
+.category_product {width:100%; float:left; padding-bottom:2px; font:Arial;}
+.category_product:hover{background-color:#dddddd;color:#ffffff; width:100%; float:left;}
+#category{width:100%; float:left; padding-bottom:5px;}
+
+.content-module ul li {list-style:url('Images/bullet-category.jpg'); list-style-position:inside; line-height:29px; height:29px; width:190px; float:left; padding-left:20px;}
+.content-module ul li a {color:#052465; text-decoration:none;}
+
+/*--------Support Online--------*/
+.lblNick{font-weight:bold;}
+
+/*--------Search--------*/
+.txtSearch {position:absolute; top:0; left:0;}
+.btnSearch {position:absolute; top:0; left:157px;}
+

@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="gameShop.Site" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%@ Register src="Module/Banner.ascx" tagname="Banner" tagprefix="uc1" %>
+
+<%@ Register src="Module/Menu.ascx" tagname="Menu" tagprefix="uc2" %>
+
+<%@ Register src="Module/Category.ascx" tagname="Category" tagprefix="uc3" %>
+
+<%@ Register src="Module/Login.ascx" tagname="Login" tagprefix="uc7" %>
+
+<%@ Register src="Module/Search.ascx" tagname="Search" tagprefix="uc6" %>
+
+<%@ Register src="Module/Count.ascx" tagname="Counter" tagprefix="uc8" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="google-site-verification" content="Xl703W4P7j9V6Es5_7vg2CR-X6KiEKx5XVSUNL47Mdg" />
+    <title>Game Shop</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/menu.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Module.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/ListProduct.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <div id="wrapper">
+        <div id="header">          
+            <div id="menu">
+                <uc2:Menu ID="Menu1" runat="server" />
+            </div>
+            <div id="banner">
+            <uc1:Banner ID="Banner1" runat="server" />
+            </div>
+        </div>
+        <div id="content">
+            <div id="left">
+                <uc7:Login ID="Login1" runat="server" />
+                <uc8:Counter ID="Counter1" runat="server" />
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="right">
+                
+                
+                <uc6:Search ID="Search1" runat="server" />
+                <uc3:Category ID="Category1" runat="server" />
+            </div>
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
