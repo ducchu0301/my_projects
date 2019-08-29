@@ -9,13 +9,13 @@ Add using ALT + S
 
 Naming convention: s_[object_name]_[action_name]
 
-![Sprite](/gm_images/Sprites.png)
+![Sprite](./gm_images/Sprites.png)
 
 > `Name`: sprite name
 
 > `Image`: view/edit an image in sprite<br/>
 > - `Size`: view/edit size of the image<br/>
-> ![Image_Size](/gm_images/Sprites_Image_Size.png)<br/>
+> ![Image_Size](./gm_images/Sprites_Image_Size.png)<br/>
 > - `Edit image`: customize the image
 > - `Import`: import an sprite (png image)
 
@@ -32,14 +32,14 @@ Naming convention: s_[object_name]_[action_name]
 
 An atomic object in game engine, it can be a Player, Enemy, Building,...
 
-![Objects](/gm_images/Objects.png)
+![Objects](./gm_images/Objects.png)
 
 It can combine with other feature like : 
 - `Events`: List of action / event for an Object<br/>
   Ex: Player has 'Run', 'Jump' events
 - `Variable Definitions`: list of variables used in script
 
-![Objects](/gm_images/Objects_2.png)
+![Objects](./gm_images/Objects_2.png)
 
 # Rooms
 
@@ -49,7 +49,7 @@ Gameplay will start as this stage
 
 To display object in a room, drag an Object into room space
 
-![Rooms](/gm_images/Rooms.png)
+![Rooms](./gm_images/Rooms.png)
 
 `Layers`: Have Instances / Background
 - Instances: Objects placed in the Room
@@ -61,7 +61,7 @@ Next is about the display related components:
 - Camera Properties
 - Viewpoint Properties
 
-![Grid_Room_Camera](/gm_images/Room_Display_2.png)
+![Grid_Room_Camera](./gm_images/Room_Display_2.png)
 
 `Grid Size`: "Base" size of an Object. It will be the base for size of all the Objects, Backgrounds, Room...
 
@@ -73,7 +73,7 @@ Next is about the display related components:
 
 `Camera Properties`(Camera Size): Display area when playing Application
 
-![Camera_Viewpoint](/gm_images/Room_Display_3.png)
+![Camera_Viewpoint](./gm_images/Room_Display_3.png)
 
 `Viewpoint Properties`: The Application (Windows) size
 
@@ -91,7 +91,7 @@ When create an event "Step" of an object "Player" it will create a script file r
 
 And the coding in this script file will effects the action of the player
 
-![Object_flow](/gm_images/Objects_2.png)
+![Object_flow](./gm_images/Objects_2.png)
 
 GameMaker designs the coding environment separate between the events and variable definitions:
 
@@ -123,7 +123,7 @@ The script in an Event is `Update` function that update changes every frame
 
 But the point is GameMaker automatically execute `Draw(Render)` function so you don't have to worry about this
 
-![Event_Step_Script](/gm_images/Event_1.png)
+![Event_Step_Script](./gm_images/Event_1.png)
 
 `x`, `y`: the Position of the Object. <br/>
 When using `'+='`, `'-='` in the script, it will update the position of the Object every frame
@@ -135,7 +135,7 @@ In GameMaker, the position location x, y is baed on the `TOP_LEFT` of the screen
 And to the `right`, location `x will increases` and vice versa<br/>
 To the `bottom`, location `y will increases` and vice versa
 
-![Position](/gm_images/Event_2.png)
+![Position](./gm_images/Event_2.png)
 
 ---
 
